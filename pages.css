@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Playwrite+US+Modern:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background: linear-gradient(45deg,#0a0a0a,#3a4452);}
+
+.main{
+    display: flex;
+    padding:20px;
+    padding-bottom: 5px;
+}
+.main2{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.na1,.na2{
+    margin: 10px;
+    height: 70vh;
+    width: 42vh;
+    border-radius: 15px;
+}
+.bx{
+    margin: 10px;
+    height: 33vh;
+    width: 37vh;
+    border-radius: 15px;
+}
+hr{
+    color:bisque
+}
+h2{
+    font-size: 5vh;
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color:azure;
+    padding-top:5px;
+}
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+   height:20vh;
+}
+footer i{
+   font-size: 50px;
+   color:white;
+}
